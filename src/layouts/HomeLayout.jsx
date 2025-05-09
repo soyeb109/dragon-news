@@ -6,6 +6,7 @@ import Navbar from "../components/Navbar";
 import LeftAside from "../components/HomeLayout/LeftAside";
 import RightAside from "../components/HomeLayout/RightAside";
 import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 const HomeLayout = () => {
   return (
     <div>
