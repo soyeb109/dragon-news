@@ -5,6 +5,7 @@ import LatestNews from "../components/LatestNews";
 import Navbar from "../components/Navbar";
 import LeftAside from "../components/HomeLayout/LeftAside";
 import RightAside from "../components/HomeLayout/RightAside";
+import { ToastContainer } from "react-toastify";
 const HomeLayout = () => {
   return (
     <div>
@@ -28,6 +29,7 @@ const HomeLayout = () => {
           <RightAside />
         </aside>
       </main>
+      <ToastContainer />
     </div>
   );
 };
